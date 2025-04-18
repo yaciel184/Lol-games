@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clickable Games</title>
+  <style>
+    /* Styling for the "Games" link */
+    .games {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF; /* Initial color (blue) */
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Hover effect: Change to a lighter color */
+    .games:hover {
+      background-color: #66B2FF; /* Lighter shade of blue */
+    }
+  </style>
+</head>
+<body>
+  <h1>Clickable Games</h1>
+  <!-- "Games" link -->
+  <a href="https://example.com/game1" class="games">Game 1</a>
+  <a href="https://example.com/game2" class="games">Game 2</a>
+  <a href="https://example.com/game3" class="games">Game 3</a>
+</body>
+</html>
