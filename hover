@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Effect Example</title>
+  <style>
+    /* Styling for the "Games" link or file */
+    .games {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF; /* Initial color (blue) */
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; /* Smooth transition effect */
+    }
+
+    /* Hover effect: Change to a lighter color */
+    .games:hover {
+      background-color: #66B2FF; /* Lighter shade of blue */
+    }
+  </style>
+</head>
+<body>
+  <h1>Hover Effect Example</h1>
+  <!-- "Games" file or link -->
+  <a href="#" class="games">Games</a>
+</body>
+</html>
