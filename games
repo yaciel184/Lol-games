@@ -13,7 +13,7 @@
     // JavaScript to open a new tab
     document.getElementById('openTabButton').addEventListener('click', function() {
       // Replace the URL with the site you want to open
-      const url = "https://www.example.com";
+      const url = https://crazycattle3d.com/"";
       window.open(url, '_blank'); // Opens the URL in a new tab
     });
   </script>
