@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Buttons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .game-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #007BFF; /* Initial color (blue) */
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .game-button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+  </style>
+</head>
+<body>
+  <h1>Choose a Game</h1>
+  <!-- Buttons for different games -->
+  <a href="https://crazycattle3d.com/" class="game-button">Game 1</a>
+  <a href="https://classic.minecraft.net/" class="game-button">Game 2</a>
+  <a"https://playhop.com/app/208064" class="game-button">Game 3</a>
+</body>
+</html>
