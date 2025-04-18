@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Buttons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    .game-button {
+      display: inline-block;
+      margin: 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Makes the button circular */
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      text-align: center;
+      line-height: 150px; /* Centers text vertically */
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .game-button:hover {
+      transform: scale(1.1); /* Slightly enlarges on hover */
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+    .game-button img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures the image fits the circle */
+      z-index: 0; /* Ensures the image is behind the text */
+      opacity: 0.8; /* Makes the image slightly transparent */
+    }
+    .game-button span {
+      position: relative;
+      z-index: 1; /* Ensures the text is above the image */
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choose a Game</h1>
+  <!-- Buttons for different games -->
+  <a href="https://crazycattle3d.com/" class="game-button">
+    <img src="https://via.placeholder.com/150" alt="Game 1">
+    <span>Game 1</span>
+  </a>
+  <a href="https://classic.minecraft.net/" class="game-button">
+    <img src="https://via.placeholder.com/150" alt="Game 2">
+    <span>Game 2</span>
+  </a>
+  <a href="https://playhop.com/app/208064" class="game-button">
+    <img src="https://via.placeholder.com/150" alt="Game 3">
+    <span>Game 3</span>
+  </a>
+</body>
+</html>
