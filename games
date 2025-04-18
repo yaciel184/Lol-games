@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open New Tab</title>
+</head>
+<body>
+  <h1>Open a New Tab Example</h1>
+  <button id="openTabButton">Open a New Tab</button>
+
+  <script>
+    // JavaScript to open a new tab
+    document.getElementById('openTabButton').addEventListener('click', function() {
+      // Replace the URL with the site you want to open
+      const url = "https://www.example.com";
+      window.open(url, '_blank'); // Opens the URL in a new tab
+    });
+  </script>
+</body>
+</html>
